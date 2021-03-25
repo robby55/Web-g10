@@ -5,10 +5,24 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .company_logo h1{
-    font-size: 14px;
-  }
-  .header-right{
-    display:none;
-  }
-  }
+
+    .company_logo h1{
+      font-size: 30px;
+    }
+
+    .header-right{
+      display:none;
+    }
+
+    .menu-icon {
+   
+    font-size:25px;
+    }
+   
+    .header-contact{
+      display:none;
+    }
+    .container-menu span{
+      display: block;
+    }
+}
