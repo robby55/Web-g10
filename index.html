@@ -35,8 +35,8 @@
    <header>
       <div class="container-menu">
         <!-- Tambahkan ikon menu disini -->
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
+        <span class="fa fa-bars menu-icon" href="javascript:void(0);" onclick="myFunction()"></span>
+        <div id="myLinks" class="header-right">
           <a href="#">Home</a>
           <a href="#">Tours</a>
           <a href="#">Open Trip</a>
@@ -47,3 +47,14 @@
     </header>
  
 </html>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
