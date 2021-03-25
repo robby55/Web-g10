@@ -13,10 +13,26 @@ a {
 header{
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
+  background-color: rgb(254 188 16);
+
   top: 0;
   z-index: 10;
+}
+.header-right {
+  float: left;
+  margin-left: -12%;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px; 
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header-top {
@@ -85,4 +101,23 @@ body.header-type-2 .header {
     background: none;
     border: 0 none;
 }
+.header {
+    color: #fff;
+    z-index: 999!important;
+    min-height: 60px;
+}
+.company_logo {
+    float: left;
+}
+.company_logo span{
+    color:red;
+}
+.btn-color, .btn-default:hover, .btn-primary {
+    color: #fff !important;
+    background-color: #febc10 !important;
+    -webkit-print-color-adjust: exact;
+    border-color: #cc8a00 !important;
+}
+
+
 

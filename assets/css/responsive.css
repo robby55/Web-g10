@@ -1,0 +1,14 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .company_logo h1{
+    font-size: 14px;
+  }
+  .header-right{
+    display:none;
+  }
+  }
