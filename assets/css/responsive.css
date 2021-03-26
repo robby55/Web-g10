@@ -22,7 +22,7 @@
     .header-right a{
       color:white;
     }
-    .header-right a:hover {
+    .header-right a:hover{
       background-color: #ddd;
       color: black;
     }
