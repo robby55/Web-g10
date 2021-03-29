@@ -4,31 +4,47 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Poppins";
 }
 
 a {
   text-decoration: none;
 }
-header{
-  height: 65px;
+header {
+  height: 40px;
   width: 100%;
-  background-color: rgb(254 188 16);
+  background-color: rgb(38, 208, 201);
 
   top: 0;
   z-index: 10;
 }
+
+.header-link {
+  font-size: small;
+  font-weight: 300px;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header-top {
+  font-size: smaller;
+}
+
 .header-right {
   float: left;
-  margin-left: -20%;
 }
+
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px; 
-  color: black;
+  line-height: 43px;
+  padding: 0 15px;
   display: block;
   float: left;
   transition: all 0.5s;
+  font-size: smaller;
+  font-weight: bold;
+  color: #3c3c3c;
 }
 
 .header-right a:hover {
@@ -36,83 +52,97 @@ header{
 }
 
 .header-top {
-    display: inline-block;
-    width: 100%;
-    background-color: #3c3c3c;
-    border-top: 4px solid;
-    color: #131010;
-   
+  display: inline-block;
+  width: 100%;
+  background-color: #3c3c3c;
+  border-top: 4px solid;
+  color: #131010;
 }
 .header-tagline {
-    text-transform: capitalize;
-    font-style: normal;
-    top: 0;
-    color: #F1F1F1;
+  text-transform: capitalize;
+  font-style: normal;
+  top: 0;
+  color: #f1f1f1;
 }
 .active-border-color {
-    border-color: #febc10 !important;
+  border-color: #26d0c9 !important;
 }
 .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.header-link {
+  float: right;
+}
+.header-link span {
+  padding: 7px 0px;
+  padding-top: 8px;
+  display: inline-block;
+  color: #f1f1f1 !important;
+  margin: 0 10px 0 0;
+}
 
+#header-tagline {
+  text-transform: capitalize;
+  font-style: normal;
+  top: 0;
+  color: #f1f1f1;
+  position: relative;
+  padding-top: 8px;
+  float: left;
 }
-.header-link{
-	float: right;
-}
-.header-link span{
-    padding: 7px 10px;
-    display: inline-block;
-    color: #fff!important;
-    margin-left: 2px;
-}
-.header-link a{
-	padding: 7px 10px;
-    display: block;
-    color: black;
-    margin-left: 2px;
-    background-color: #febc10 !important;
-    transition: all 0.5s;
+.header-link a {
+  padding: 7px 8px;
+  display: block;
+  color: black;
+  margin-left: 2px;
+  background-color: #26d0c9 !important;
+  transition: all 0.5s;
+  font-weight: 300px;
 }
 .header-company {
-    float: left;
+  float: left;
 }
 .company {
-    display: inline-block;
-    color: #464646;
+  display: inline-block;
+  color: #464646;
 }
 .header-contact {
-    display: inline-block;
-    float: right;
-    border: 1px solid #e7e7e7;
-    background-color: #f7f7f7;
-    color: #7f7d74;
-    padding: 5px 15px;
-    margin: 7px 0 0 0;
+  display: inline-block;
+  float: right;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  color: #999891;
+  padding: 5px 15px;
+  margin: 10px 0 0 0;
+  font-size: smaller;
+  font-weight: bold;
 }
 body.header-type-2 .header {
-    position: relative;
-    background: none;
-    border: 0 none;
-} 
+  position: relative;
+  background: none;
+  border: 0 none;
+}
 .header {
-    color: #fff;
-    z-index: 999!important;
-    min-height: 60px;
+  color: #f1f1f1;
+  z-index: 999 !important;
+  min-height: 100px;
 }
 .company_logo {
-    float: left;
-    margin-top: -6%;
+  float: left;
 }
-.company_logo span{
-    color:red;
+.company_logo span {
+  color: red;
 }
-.btn-color, .btn-default:hover, .btn-primary {
-    color: #fff !important;
-    background-color: #febc10 !important;
-    -webkit-print-color-adjust: exact;
-    border-color: #cc8a00 !important;
+.btn-color,
+.btn-default:hover,
+.btn-primary {
+  color: #fff !important;
+  background-color: #26d0c9 !important;
+  -webkit-print-color-adjust: exact;
+  border-color: #17b0fcc2 !important;
 }
 .menu-icon {
   color: white;
@@ -125,11 +155,130 @@ body.header-type-2 .header {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
-
 }
-.container-menu span{
-    display: none;
-    
+.container-menu span {
+  display: none;
+  height: 40px;
+  font-size: x-large;
 }
 
+.top-wrapper {
+  background-image: url("../img/luxury_water_bungalows-wallpaper-1366x768.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0 100px 0;
+  font-weight: bold;
+  color: #3c3c3c;
+}
 
+.top-wrapper p {
+  margin-top: 0px;
+}
+
+.logo {
+  width: 154px;
+  margin-top: 5px;
+}
+
+.logomain {
+  width: 274px;
+  margin-top: 5px;
+}
+
+.logomain p {
+  padding-top: 5px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.container-main {
+  padding-top: 50px;
+}
+
+.container-main p {
+  top: 1000px;
+}
+
+.fitur-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.fitur {
+  float: left;
+  width: 25%;
+}
+
+.fitur-icon {
+  position: relative;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.fitur-icon p {
+  top: 44%;
+  width: 100%;
+  color: #5f5d60;
+  font-weight: 800px;
+  font-style: italic;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.header-induk {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #ffff;
+}
