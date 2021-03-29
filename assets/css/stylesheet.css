@@ -237,7 +237,7 @@ body.header-type-2 .header {
 }
 
 .fitur-wrapper {
-  padding-bottom: 80px;
+  padding-bottom: 30%;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
@@ -282,3 +282,68 @@ body.header-type-2 .header {
   width: 100%;
   background-color: #ffff;
 }
+
+/*banner*/
+.banner {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.banner .box {
+  background: white;
+  padding: 20px;
+  margin:10px;
+}
+
+.banner .box h3 {
+  margin: 10px 0;
+}
+
+.banner .box img {
+  width: 350px;
+  height: 250px;
+}
+
+.banner .box img:hover {
+  -webkit-transform:scale(1.08);
+  transform: scale(1.08);
+}
+
+.banner .box a {
+  padding: 15px;
+  background: #07a5cf;
+  display: inline-block;
+  margin: 10px 0;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.banner .box a:hover {
+  background: #2980b9;
+}
+
+
+/*footer*/
+footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    text-align: center;
+
+      
+  }
+  img {
+    width: 100px;
+  }
+  footer p{
+    color: rgb(11, 179, 245);
+    font-size: 0.9em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+

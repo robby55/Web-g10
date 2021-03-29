@@ -5,39 +5,88 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  #header-tagline{
+    display:none;
+  }
+  header {
+    height: 58px;
 
-    .company_logo h1{
-      font-size: 30px;
-    }
+  }
+  .company_logo h1{
+    font-size: 30px;
+  }
 
-    .header-right{
-      display:none;
-      overflow: hidden;
-      background-color: #333;
-      position: relative;
-      color:white;
-      margin-left: 58%;
+  .header-right{
+    display:none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    color:white;
+    margin-left: 58%;
     
-    }
-    .header-right a{
-      color:white;
-    }
-    .header-right a:hover{
-      background-color: #ddd;
-      color: black;
-    }
+  }
+  .header-right a{
+    color:white;
+  }
+  .header-right a:hover{
+    background-color: #ddd;
+    color: black;
+  }
 
-    .menu-icon {
+  .menu-icon {
     transition-duration: 0.4s;
     font-size:25px;
-    }
-   
-    .header-contact{
-      display:none;
-    }
-    .container-menu span{
-      display: block;
+  }
 
-    }
-  
+  .header-contact{
+    display:none;
+  }
+  .container-menu span{
+    display: block;
+
+  }
+
+  .container-main {
+
+    padding-left: 40px;
+  }
+  .top-wrapper {
+    width: 125%;
+  }
+  .facebook{
+    margin-bottom: 10px;
+  }
+  .fitur-wrapper {
+    padding-bottom: 150%;
+  }
+
+  .banner {
+    flex:none;
+    width: 100%;
+  }
+  .banner .box img {
+
+    margin-left: 20px;
+
+  }
+
+  .banner .box h3 {
+
+    margin-left: 50px;
+  }
+  .banner .box p{
+
+    margin-left: 79px;
+  }
+
+  .banner .box a {
+    margin: 10px 5px 0px 66px;
+  }
+  .fitur-wrapper {
+    width:100%;
+}
+
+  footer{
+    width: 125%;
+  }
 }
